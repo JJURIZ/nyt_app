@@ -43,10 +43,6 @@ app.get('/', (req, res) => {
     res.send(`Welcome to my backend`)
 })
 
-
-
-
-
 app.listen(PORT, () => {
     console.log(`Server is running on PORT:${PORT}`)
 
